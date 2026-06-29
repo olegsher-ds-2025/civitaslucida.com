@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0e0e10;
+      --surface: #16161a;
+      --border: #2a2a30;
+      --text: #c8c8d0;
+      --muted: #6a6a78;
+      --accent: #a08c6e;
+      --heading: #e8e4dc;
+      --max-w: 680px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-size: 18px;
+      line-height: 1.8;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 3rem 2rem 2.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      font-weight: normal;
+      letter-spacing: 0.18em;
+      color: var(--heading);
+      text-transform: uppercase;
+    }
+
+    header .subtitle {
+      margin-top: 0.6rem;
+      font-style: italic;
+      color: var(--muted);
+      font-size: 0.95rem;
+      letter-spacing: 0.04em;
+    }
+
+    main {
+      flex: 1;
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 3rem 2rem 4rem;
+      width: 100%;
+    }
+
+    section {
+      margin-bottom: 3.5rem;
+    }
+
+    section h2 {
+      font-size: 0.75rem;
+      font-weight: normal;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.2rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    section p {
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+
+    .fragment {
+      background: var(--surface);
+      border-left: 2px solid var(--accent);
+      padding: 1.5rem 1.8rem;
+      margin: 0;
+    }
+
+    .fragment p {
+      font-style: italic;
+    }
+
+    .wip {
+      border-top: 1px solid var(--border);
+      padding-top: 2rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      letter-spacing: 0.03em;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      letter-spacing: 0.05em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.7rem; }
+      body { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Civitas Lucida</h1>
+    <p class="subtitle">роман</p>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>civitaslucida.com</footer>
+</body>
+</html>
