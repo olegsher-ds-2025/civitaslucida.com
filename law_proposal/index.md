@@ -1,19 +1,23 @@
-# Law Proposal Documents
+# <div dir="rtl">מסמכי הצעת החוק</div>
 
-This section contains the documents related to the proposed law.
+<div dir="rtl">
 
-## Documents
+סעיף זה מכיל את המסמכים הקשורים להצעת החוק המוצעת.
 
-1. [📄 Draft Law Text](../hoq-taviot-adumot-nusach.md)
-2. [📑 Explanatory Notes](../divrei-hesber-murchavim.md)
-3. [🌍 Comparative Review – 12 Countries](../skira-hashvaatit-12-medinot.md)
+## מסמכים
+
+1. [📄 נוסח החוק המוצע](./hoq-taviot-adumot-nusach.md)
+2. [📑 דברי הסבר](./divrei-hesber-murchavim.md)
+3. [🌍 סקירה השוואתית – 12 מדינות](./skira-hashvaatit-12-medinot.md)
 
 ---
 
-## Quick Navigation
+## ניווט מהיר
 
-| Document | Description |
-|----------|-------------|
-| [Draft Law Text](../hoq-taviot-adumot-nusach.md) | Full proposed law text |
-| [Explanatory Notes](../divrei-hesber-murchavim.md) | Detailed explanation of the proposal |
-| [Comparative Review](../skira-hashvaatit-12-medinot.md) | Comparison with legislation in 12 countries |
+| מסמך | תיאור |
+|------|-------|
+| [נוסח החוק המוצע](./hoq-taviot-adumot-nusach.md) | נוסח מלא של החוק המוצע |
+| [דברי הסבר](./divrei-hesber-murchavim.md) | הסבר מפורט של ההצעה |
+| [סקירה השוואתית](./skira-hashvaatit-12-medinot.md) | השוואה לחקיקה ב-12 מדינות |
+
+</div>
