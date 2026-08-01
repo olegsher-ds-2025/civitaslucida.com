@@ -33,6 +33,10 @@ Civitas Lucida не утопия и не антиутопия в привычн�
 >
 > Никто бы не узнал. В этом и был стыд — не в том, что увидят, а в том, что *он сам* теперь знал.
 
+## Материалы к миру
+
+Рабочие заметки о переходе от современности к городу — экономика, распределение благ, узловые сцены предыстории: [worldbuilding](/worldbuilding/).
+
 ## Поддержать проект
 
 Civitas Lucida ищет тех, кто готов поддержать движение проекта от книги к реальному воплощению — спонсоров, партнёров, единомышленников, готовых разделить интерес к идее сообщества, выстроенного вокруг чувственности и творчества, а не вокруг постоянной когнитивной нагрузки.
@@ -76,6 +80,10 @@ The novel is written in a register close to Murakami and Nabokov — without gen
 > He pulled his hands back from the table so fast that a thread snapped.
 >
 > No one would have known. That was the shame of it — not that someone might see, but that *he himself* now knew.
+
+## World Notes
+
+Working notes on the transition from the present to the city — economy, distribution of goods, key backstory scenes: [worldbuilding](/worldbuilding/).
 
 ## Support the Project
 
